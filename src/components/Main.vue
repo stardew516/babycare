@@ -37,10 +37,9 @@ export default {
   },
   methods: {
     getMilk () {
-      this.$http.get('/dist/assets/milk.json').then((data) => {
+      this.$http.get('http://localhost:3003/milk').then((data) => {
         this.list = data.body[0].data
         this.date = data.body[0].date
-        console.log('data', data)
       }, () => {
         console.log('error')
       })
