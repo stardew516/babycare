@@ -5,7 +5,7 @@
 <html>
   <body>
     <div>
-        <iframe src="https://stardew516.github.io/babycare/dist/index.html#/babycare/pie" frameborder="0" width="100%" height="300px"></iframe>
+        <iframe src="stardew516.github.io/babycare/dist/index.html#/babycare/pie" frameborder="0" width="100%" height="300px"></iframe>
       </div>
    </body>
 </html>
